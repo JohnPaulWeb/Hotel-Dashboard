@@ -1,5 +1,6 @@
 "use client"
 
+import { Card, CardContent } from "@/components/ui/card"
 import { useEffect, useState } from "react"
 
 // import { useToast } from ""
@@ -163,7 +164,69 @@ export default function Dashboard() {
                 { description: "Room For Room", amount: "89.00" },
             ],
         },
+
+        {
+            id: "Zone",
+            guests: "Ayanokoji",
+            date: "Jan 15 2019",
+            items: ["Chicken Curry", "Dinakdakan", "Sisig"],
+            total: "20.22",
+            status: "Delivered",
+            items: [
+                { description: "Room For Room", amount: "89.00" },
+                { description: "Room For Room", amount: "89.00" },
+            ],
+        },
+
+        {
+            id: "Zone",
+            guests: "Ayanokoji",
+            date: "Jan 15 2019",
+            items: ["Chicken Curry", "Dinakdakan", "Sisig"],
+            total: "20.22",
+            status: "Delivered",
+            items: [
+                { description: "Room For Room", amount: "89.00" },
+                { description: "Room For Room", amount: "89.00" },
+            ],
+        },
     ]
+
+    const  calendarEvents = [
+        { date: 2, guest: "Ayanokoji Kiyotaka", nights: 2, guests: 2 },
+        { date: 2, guest: "Ayanokoji Kiyotaka", nights: 2, guests: 2 },
+        { date: 2, guest: "Ayanokoji Kiyotaka", nights: 2, guests: 2 },
+    ]
+
+    const renderDashboard = () => (
+        <>
+         <div className="flex justify-end mb-4">
+            <p className="text-sm text-gray-600">Jan // 14, 2019</p>
+         </div>
+
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-6">
+
+            <Card>
+                <CardContent className="p-4 flex items-center">
+                    <div className="bg-blue-50 p-3 rounded-b-full mr-4">
+                        <svg xmlns="" className="h-6 w-6 text-blue-500" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+
+                            <path d="M5 12h14"></path>
+                            <path d="M12 517 7-7 7"></path>
+                        </svg>
+                    </div>
+
+                    <div>
+                        <p className="text-sm text-gray-500">
+                            Arrival <span className="text-xs">(This Week)</span>
+                        </p>
+                    </div>
+                </CardContent>
+            </Card>
+         </div>
+        </>
+    )
 
 
 
