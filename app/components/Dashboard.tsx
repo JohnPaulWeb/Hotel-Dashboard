@@ -221,6 +221,10 @@ export default function Dashboard() {
                         <p className="text-sm text-gray-500">
                             Arrival <span className="text-xs">(This Week)</span>
                         </p>
+
+                        <div className="">
+
+                        </div>
                     </div>
                 </CardContent>
             </Card>
