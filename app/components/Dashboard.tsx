@@ -222,9 +222,62 @@ export default function Dashboard() {
                             Arrival <span className="text-xs">(This Week)</span>
                         </p>
 
-                        <div className="">
-
+                        <div className="flex items-center">
+                            <h3 className="text-2xl font-bold mr-2">73</h3>
+                            <span className="text-xs px-1.5 py-0.5 bg-red-100 text-green-600 rounded">52+</span>
                         </div>
+
+                        <p className="text-xs text-gray-500">Previous Week</p>
+                    </div>
+                </CardContent>
+            </Card>
+
+
+
+            <Card>
+                <CardContent className="p-4 flex items-center">
+                    <div className="bg-amber-50 p-3 rounded-full mr-4">
+                        <svg xmlns="" className="h-6 w-6 text-blue-500" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+
+                            <path d="M19 12h5"></path>
+                            <path d="M12 191 7-7 7"></path>
+                        </svg>
+                    </div>
+
+                    <div>
+                        <p className="text-sm text-gray-500">Departure <span className="text-xs">(This Week)</span></p>
+
+                        <div className="flex items-center">
+                            <h3 className="text-2xl font-bold mr-2">40</h3>
+                            <span className="text-xs px-1.5 py-0.5 bg-red-100 text-red-600 rounded">12%</span>
+                        </div>
+
+                        <p className="text-xs text-gray-500">Previous Week</p>
+                    </div>
+                </CardContent>
+            </Card>
+
+            <Card>
+                <CardContent className="p-4 flex items-center">
+                    <div className="bg-amber-50 p-3 rounded-full mr-4">
+                        <svg xmlns="" className="h-6 w-6 text-blue-500" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+
+                            <path d="M19 12h5"></path>
+                            <path d="M12 191 7-7 7"></path>
+                        </svg>
+                    </div>
+
+                    <div>
+                        <p className="text-sm text-gray-500">Departure <span className="text-xs">(This Week)</span></p>
+
+                        <div className="flex items-center">
+                            <h3 className="text-2xl font-bold mr-2">40</h3>
+                            <span className="text-xs px-1.5 py-0.5 bg-red-100 text-red-600 rounded">12%</span>
+                        </div>
+
+                        <p className="text-xs text-gray-500">Previous Week: 187</p>
                     </div>
                 </CardContent>
             </Card>
