@@ -281,6 +281,20 @@ export default function Dashboard() {
                     </div>
                 </CardContent>
             </Card>
+            
+            <Card>
+                <CardContent className="p-4">
+                    <p className="text-sm text-gray-500 mb-2">Today Activity</p>
+                    <div className="flex justify-between mb-2">
+                        <div className="text-center">
+                            <div className="bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center mx-auto mb-1">
+
+                            </div>
+                        </div>
+                    </div>
+                </CardContent>
+                
+                </Card>            
          </div>
         </>
     )
